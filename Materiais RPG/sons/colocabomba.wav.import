@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/colocabomba.wav-944a2e00f3e79e3c76cfa2e900d1dd11.sample"
+
+[deps]
+
+source_file="res://Materiais RPG/sons/colocabomba.wav"
+dest_files=[ "res://.import/colocabomba.wav-944a2e00f3e79e3c76cfa2e900d1dd11.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/tesouro.wav-0eaf7325cf49388748c3b2944cc2abba.sample"
+
+[deps]
+
+source_file="res://Materiais RPG/sons/tesouro.wav"
+dest_files=[ "res://.import/tesouro.wav-0eaf7325cf49388748c3b2944cc2abba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

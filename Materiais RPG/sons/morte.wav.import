@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/morte.wav-954a2518cf7d54680c3ec0edc5b9ed4d.sample"
+
+[deps]
+
+source_file="res://Materiais RPG/sons/morte.wav"
+dest_files=[ "res://.import/morte.wav-954a2518cf7d54680c3ec0edc5b9ed4d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
