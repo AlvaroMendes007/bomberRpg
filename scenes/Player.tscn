@@ -32,14 +32,24 @@ animations = [ {
 "name": "cima",
 "speed": 8.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 8 ) ],
 "loop": true,
-"name": "pcima",
+"name": "direita",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "esquerda",
 "speed": 8.0
 }, {
 "frames": [ ExtResource( 11 ) ],
 "loop": true,
 "name": "pbaixo",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "pcima",
 "speed": 8.0
 }, {
 "frames": [ ExtResource( 5 ) ],
@@ -50,16 +60,6 @@ animations = [ {
 "frames": [ ExtResource( 1 ) ],
 "loop": true,
 "name": "pesquerda",
-"speed": 8.0
-}, {
-"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 4 ) ],
-"loop": true,
-"name": "esquerda",
-"speed": 8.0
-}, {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 8 ) ],
-"loop": true,
-"name": "direita",
 "speed": 8.0
 } ]
 

@@ -72,7 +72,7 @@ func toma_tesouro(achado):
 	$tesouro.play()
 	tesouros += achado
 	ui.atualizatesouros(tesouros)
-	if tesouros == 6:
+	if tesouros == GameManager.total_tesouros:
 		$ganhou.play()
 		emit_signal("ganhou")
 	
@@ -82,11 +82,17 @@ func toma_xp(quanto):
 	
 func toma_dano(dano):
 	$dano.play()
+	animacao_dano()
 	vidas -= dano
 	ui.atualizavidas(vidas)
 	if vidas <= 0:
 		$morte.play()
 		morre()
+
+func animacao_dano():
+	anim.modulate = Color(1, 0, 0, 1)
+	yield(get_tree().create_timer(0.1), "timeout")
+	anim.modulate = Color(1, 1, 1, 1)
 
 func morre():
 	get_tree().reload_current_scene()

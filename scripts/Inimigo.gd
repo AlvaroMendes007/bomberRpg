@@ -11,7 +11,7 @@ var tataque = 1.0
 var dataque = 100
 
 # distancia de perseguição
-var dpers = 400
+var dpers = 1000
 
 # facilitador para trabalhar com o timer
 onready var timer = $Timer
